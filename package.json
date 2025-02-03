@@ -1,0 +1,30 @@
+{
+  "name": "athlete-bridge",
+  "version": "1.0.0",
+  "description": "Supporting UnderPriviledged Athlets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R0nit-Mathur/Athlete-Bridge.git"
+  },
+  "keywords": [
+    "Atletes"
+  ],
+  "author": "Team Queue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R0nit-Mathur/Athlete-Bridge/issues"
+  },
+  "homepage": "https://github.com/R0nit-Mathur/Athlete-Bridge#readme",
+  "dependencies": {
+    "parcel": "^2.13.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

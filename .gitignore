@@ -1,0 +1,11 @@
+ # Node.js dependencies
+node_modules/
+
+# Parcel cache & build files
+.parcel-cache/
+dist/
+
+# Logs & system files
+*.log
+.DS_Store
+
