@@ -56,20 +56,6 @@ This project will not use JSX files. Instead, React will be imported into standa
   - Display athlete profile, progress bars, and stats.
   - Implement a sidebar navigation menu for quick access.
   - Ensure responsiveness using Tailwind CSS.
-  - **Example starting code:**
-    ```js
-    import React from 'react';
-    import data from '../data/athletes.json';
-    
-    function AthleteDashboard() {
-        return (
-            <div className="p-4">
-                <h1 className="text-2xl font-bold">Athlete Dashboard</h1>
-            </div>
-        );
-    }
-    export default AthleteDashboard;
-    ```
 
 ### **2. Reels Section - Frontend Developer**
 - **File:** `ReelsSection.js`
@@ -79,63 +65,71 @@ This project will not use JSX files. Instead, React will be imported into standa
   - Display reels in a grid format using cards.
   - Implement a modal popup to play videos.
   - Ensure a smooth UI with Tailwind CSS.
-  - **Example starting code:**
-    ```js
-    import React, { useState } from 'react';
-    import reelsData from '../data/reels.json';
-    
-    function ReelsSection() {
-        return (
-            <div className="p-4">
-                <h1 className="text-2xl font-bold">Reels Section</h1>
-            </div>
-        );
-    }
-    export default ReelsSection;
-    ```
 
-### **3. AI Chatbot - AI/LLM Integrator**
+### **3. Training Resources - Frontend Developer**
+- **File:** `TrainingResources.js`
+- **Responsibilities:**
+  - Import React and create a functional component.
+  - Fetch training materials from `training-resources.json`.
+  - Organize training resources into categories.
+  - Implement a filtering functionality for resource selection.
+
+### **4. Mentorship Programs - Frontend Developer**
+- **File:** `MentorshipPrograms.js`
+- **Responsibilities:**
+  - Import React and create a functional component.
+  - Fetch mentorship program details from `mentors.json`.
+  - Display available mentors and their expertise.
+  - Implement an application form for mentees.
+
+### **5. Sponsorship Marketplace - Frontend Developer**
+- **File:** `SponsorshipMarketplace.js`
+- **Responsibilities:**
+  - Import React and create a functional component.
+  - Fetch sponsorship opportunities from `sponsorships.json`.
+  - Display athlete sponsorship profiles.
+  - Implement sponsor-initiated contact forms.
+
+### **6. Crowdfunding Integration - Frontend Developer**
+- **File:** `Crowdfunding.js`
+- **Responsibilities:**
+  - Import React and create a functional component.
+  - Fetch crowdfunding campaign details from `crowdfunding.json`.
+  - Display campaign details and fundraising progress.
+  - Implement an interface for users to contribute.
+
+### **7. AI Chatbot - AI/LLM Integrator**
 - **File:** `Chatbot.js`, `api.js`
 - **Responsibilities:**
   - Integrate LLM API for structured chatbot responses.
   - Implement a chat UI with input and response sections.
   - Fetch responses via `api.js` and display them in the chat UI.
-  - **Example starting code:**
-    ```js
-    import React, { useState } from 'react';
-    import { fetchChatbotResponse } from '../utils/api';
-    
-    function Chatbot() {
-        return (
-            <div className="p-4">
-                <h1 className="text-2xl font-bold">AI Chatbot</h1>
-            </div>
-        );
-    }
-    export default Chatbot;
-    ```
+
+### **8. Navbar & Footer - UI/UX Developer**
+- **Files:** `Navbar.js`, `Footer.js`
+- **Responsibilities:**
+  - Create a responsive navbar with routing links.
+  - Implement a footer with essential links and information.
+  - Ensure consistent styling and UI components across the project.
 
 ---
 
 ## **GitHub Workflow (For Beginners)**
 
 ### **1. Forking and Cloning the Repository**
-If you're new to GitHub, follow these steps:
-1. **Fork the Repository**: Click on the "Fork" button at the top-right of the project repository on GitHub.
+1. **Fork the Repository**: Click on "Fork" in GitHub.
 2. **Clone Your Forked Repository**:
    ```bash
-   git clone https://github.com/your-username/support-athletes-platform.git
-   cd support-athletes-platform
+   git clone https://github.com/R0nit-Mathur/Athlete-Bridge.git
+   cd Athlete-Bridge
    ```
 
 ### **2. Creating a New Branch**
-Before making any changes, create a new branch:
 ```bash
 git checkout -b feature-your-task
 ```
 
 ### **3. Making Changes & Committing**
-After making necessary changes:
 ```bash
 git add .
 git commit -m "Added feature XYZ"
@@ -149,7 +143,7 @@ git push origin feature-your-task
 ### **5. Creating a Pull Request (PR)**
 1. Go to your forked repository on GitHub.
 2. Click "Compare & pull request".
-3. Provide a clear description of the changes and submit the PR.
+3. Provide a clear description and submit the PR.
 4. Wait for approval before merging.
 
 ---
@@ -160,13 +154,9 @@ git push origin feature-your-task
 3. All API calls should be made via `api.js`.
 4. **Mock data should be placed inside `/data/` folder and imported where needed.**
 5. **Tailwind CSS should be used for styling** to ensure a clean and responsive UI.
-6. **Before finalizing the project:**
-   - Remove unnecessary console logs.
-   - Ensure all routes are properly mapped.
-   - Optimize component rendering for performance.
 
 ---
 
 ## **Conclusion**
-This guide ensures that each team member knows their role and how to contribute. The project is designed to be beginner-friendly, using **React components**, **structured LLM output**, and **modular design** to make it easy to scale and compile into a **Single Page Application (SPA)**. The added GitHub workflow steps will ensure that even those new to version control can contribute effectively.
+This guide ensures that each team member knows their role and how to contribute. The project is beginner-friendly, using **React components**, **structured LLM output**, and **modular design** to make it scalable. The GitHub workflow ensures smooth collaboration and version control.
 
